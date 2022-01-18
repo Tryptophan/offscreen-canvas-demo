@@ -1,0 +1,21 @@
+body > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+canvas {
+  width: 640px;
+  height: 640px;
+  background-color: black;
+}
+
+body {
+  font-size: 32px;
+}
